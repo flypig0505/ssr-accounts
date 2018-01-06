@@ -2,6 +2,10 @@
 
 友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-05 08:51】
 
+#####  无需翻墙直接访问（反向代理）:
+######  [Google](http://173.199.118.111:8888/search?q=425事件) - [真相纪录片](http://173.199.118.111/videos) - [真相期刊](http://173.199.118.111/books) - [大纪元新闻网](http://173.199.118.111) - [新唐人电视台](http://173.199.118.111:8000) 
+友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-05 08:51】
+
 ##### 账号信息
 IP地址：`173.199.118.111`  
 端口号：`2345`  
@@ -18,5 +22,4 @@ IP地址：`173.199.118.111`
 ######  SSR地址： `ssr://MTczLjE5OS4xMTguMTExOjIzNDU6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhBNkx5OTBjblYwYUM1aGRITndZV05sTG1WMUwzTnpjZw`     
 ######  SSR二维码:  <a href="http://173.199.118.111/info/ssr.html" target="_blank">http://173.199.118.111/info/ssr.html</a>
 
-#####  无SS/SSR直接访问:
-######  [Google](http://173.199.118.111:8888/search?q=425事件) - [真相纪录片](http://173.199.118.111/videos) - [真相期刊](http://173.199.118.111/books) - [大纪元新闻网](http://173.199.118.111) - [新唐人电视台](http://173.199.118.111:8000) 
+
