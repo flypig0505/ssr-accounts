@@ -19,4 +19,4 @@ IP地址：`server_ip`
 ######  SSR二维码:  <a href="http://localhost/info/ssr.html" target="_blank">http://localhost/info/ssr.html</a>
 
 #####  无SS/SSR直接访问:
-######  [Google](http://localhost:8888/q=425事件) - [真相纪录片](http://localhost/videos) - [真相期刊](http://localhost/books) - [大纪元新闻网](http://localhost) - [法轮大法](http://localhost:8000) - [明慧网](http://localhost:8080)
+######  [Google](http://localhost:8888/search?q=425事件) - [真相纪录片](http://localhost/videos) - [真相期刊](http://localhost/books) - [大纪元新闻网](http://localhost) - [法轮大法](http://localhost:8000) - [明慧网](http://localhost:8080)
