@@ -12,9 +12,12 @@ tar xzf rarlinux*; (cd rar; make)
 ip_addr=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
 sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter www.epochtimes.com $ip_addr;" nginx.conf
 sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter i.epochtimes.com $ip_addr;" nginx.conf
+sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter imgs.ntdtv.com $ip_addr:8000;" nginx.conf
+sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter media5.ntdtv.com $ip_addr:9000;" nginx.conf
 sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter https://ajax.googleapis.com http://$ip_addr;" nginx.conf
 sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter www.ntdtv.com $ip_addr:8000;" nginx.conf
-sed -i "/#nvtdv#/a\\\\t\\t\\tsub_filter https://ajax.googleapis.com http://$ip_addr;" nginx.conf
+sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter imgs.ntdtv.com $ip_addr:8000;" nginx.conf
+sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter media5.ntdtv.com $ip_addr:9000;" nginx.conf
 sed -i "/#nvtdv#/a\\\\t\\t\\tsub_filter http://ajax.googleapis.com http://$ip_addr;" nginx.conf
 sed -i "/#google#/a\\\\t\\t\\tsub_filter https://www.google.com http://$ip_addr:8888;" nginx.conf
 sed -i "/#google#/a\\\\t\\t\\tsub_filter https://id.google.com http://$ip_addr:8888;" nginx.conf
