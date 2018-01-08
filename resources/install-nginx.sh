@@ -2,11 +2,10 @@
 
 NGINX_VERSION=1.13.3 
 PCRE_VERSION=8.41 
-OPENSSL_VERSION=1.1.0f 
 ZLIB_VERSION=1.2.11
 
-git clone https://github.com/gfw-breaker/ngx_http_substitutions_filter_module.git
-git clone https://github.com/gfw-breaker/ngx_http_google_filter_module.git
+#git clone https://github.com/gfw-breaker/ngx_http_substitutions_filter_module.git
+#git clone https://github.com/gfw-breaker/ngx_http_google_filter_module.git
 
 tar xzf nginx-${NGINX_VERSION}.tar.gz && \
 tar xzf pcre-${PCRE_VERSION}.tar.gz && \
@@ -37,9 +36,7 @@ cd nginx-${NGINX_VERSION} && \
               --with-file-aio  \
               --with-http_v2_module  \
 	--with-pcre=../pcre-${PCRE_VERSION} \
- 	--with-zlib=../zlib-${ZLIB_VERSION}  \
-	--add-module=../ngx_http_google_filter_module  \
-	--add-module=../ngx_http_substitutions_filter_module && \
+ 	--with-zlib=../zlib-${ZLIB_VERSION} && \
   make -j4 && \
   make install 
 

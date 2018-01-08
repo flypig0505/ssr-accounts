@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## install dependencies
-yum install -y vim gcc gcc-c++ wget unzip net-tools openssl-devel python jq qrencode
+yum install -y vim gcc gcc-c++ wget unzip net-tools openssl-devel python jq qrencode bind-utils
 tar xzf rarlinux*; (cd rar; make)
 
 ## install nginx
@@ -9,18 +9,10 @@ tar xzf rarlinux*; (cd rar; make)
 
 
 ## configure nginx
-ip_addr=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
-sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter www.epochtimes.com $ip_addr;" nginx.conf
-sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter i.epochtimes.com $ip_addr;" nginx.conf
-sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter imgs.ntdtv.com $ip_addr:8000;" nginx.conf
-sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter media5.ntdtv.com $ip_addr:9000;" nginx.conf
-sed -i "/#epochtimes#/a\\\\t\\t\\tsub_filter https://ajax.googleapis.com http://$ip_addr;" nginx.conf
-sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter www.ntdtv.com $ip_addr:8000;" nginx.conf
-sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter imgs.ntdtv.com $ip_addr:8000;" nginx.conf
-sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter media5.ntdtv.com $ip_addr:9000;" nginx.conf
-sed -i "/#ntdtv#/a\\\\t\\t\\tsub_filter ajax.googleapis.com $ip_addr;" nginx.conf
-sed -i "/#google#/a\\\\t\\t\\tsub_filter https://www.google.com http://$ip_addr:8888;" nginx.conf
-sed -i "/#google#/a\\\\t\\t\\tsub_filter https://id.google.com http://$ip_addr:8888;" nginx.conf
+local_ip=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
+google_ip=$(host www.google.com | grep -v v6 | cut -d' ' -f4)
+sed -i "s/local_server_ip/$local_ip/g" nginx.conf
+sed -i "s/google_ip/$google_ip/g" nginx.conf
 mv nginx.conf /usr/local/nginx/conf/nginx.conf
 mv nginx /etc/init.d/nginx
 chmod +x /etc/init.d/nginx
@@ -31,10 +23,10 @@ service nginx start
 ## set links
 page_path=/usr/local/nginx/html/info
 mkdir -p $page_path
-sed "s/localhost/$ip_addr/g" link.html > $page_path/ss.html
+sed "s/localhost/$local_ip/g" link.html > $page_path/ss.html
 sed -i "s/type/ss/" $page_path/ss.html
 
-sed "s/localhost/$ip_addr/g" link.html > $page_path/ssr.html
+sed "s/localhost/$local_ip/g" link.html > $page_path/ssr.html
 sed -i "s/type/ssr/" $page_path/ssr.html
 
 
