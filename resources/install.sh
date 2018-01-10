@@ -10,10 +10,13 @@ tar xzf rarlinux*; (cd rar; make)
 
 ## configure nginx
 local_ip=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
+for conf in $(ls nginx.conf.*); do
+	sed -i "s/local_server_ip/$local_ip/g" $conf
+done
 google_ip=$(host www.google.com | grep -v v6 | cut -d' ' -f4)
-sed -i "s/local_server_ip/$local_ip/g" nginx.conf
-sed -i "s/google_ip/$google_ip/g" nginx.conf
-mv nginx.conf /usr/local/nginx/conf/nginx.conf
+sed -i "s/google_ip/$google_ip/g" nginx.conf.google
+mv nginx.conf* /usr/local/nginx/conf/
+
 mv nginx /etc/init.d/nginx
 chmod +x /etc/init.d/nginx
 chkconfig nginx on
