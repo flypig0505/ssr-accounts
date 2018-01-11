@@ -27,10 +27,11 @@
 			sub_filter_once off;
 			sub_filter_types text;
 			
-			sub_filter https://id.google.com http://local_server_ip:8888;
-			sub_filter https://www.google.com http://local_server_ip:8888;
+			sub_filter https://id.google.com http://local_server_ip:8888;		# fail fast
+			sub_filter https://apis.google.com http://local_server_ip:8888;		# fail fast
+			sub_filter https://www.google.com http://local_server_ip:8888;		
+			sub_filter https://zh.wikipedia.org http://local_server_ip:8100;
 			sub_filter http://www.google.com http://local_server_ip:8888;
-			sub_filter https://apis.google.com http://local_server_ip:8888;
 			sub_filter www.google.com local_server_ip:8888;
 		}
 	}
