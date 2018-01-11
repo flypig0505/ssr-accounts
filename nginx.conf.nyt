@@ -27,10 +27,10 @@
 			
                         sub_filter_once off;
                         sub_filter_types text application/x-javascript application/javascript; 
-			sub_filter cn.nytimes.com local_server_ip:9400;
-			sub_filter static01.nyt.com local_server_ip:9401;
-			sub_filter up.nytimes.com local_server_ip:9401;
-			sub_filter sso.nytcn.me local_server_ip:9401;
+			sub_filter cn.nytimes.com 45.77.79.68:9400;
+			sub_filter static01.nyt.com 45.77.79.68:9401;
+			sub_filter up.nytimes.com 45.77.79.68:9401;
+			sub_filter sso.nytcn.me 45.77.79.68:9401;
 			sub_filter https http;
 
 			proxy_intercept_errors on;
@@ -38,8 +38,8 @@
 		}
 
 		location @redirect_to_mobile {
-			#rewrite ^(.*) http://local_server_ip:9440$1 permanent;
-			proxy_pass http://local_server_ip:9440;
+			#rewrite ^(.*) http://45.77.79.68:9440$1 permanent;
+			proxy_pass http://45.77.79.68:9440;
 		}
 	}
 
@@ -64,8 +64,8 @@
 			
                         sub_filter_once off;
                         sub_filter_types text html;
-			sub_filter m.cn.nytimes.com local_server_ip:9440;
-			sub_filter static01.nyt.com local_server_ip:9401;
+			sub_filter m.cn.nytimes.com 45.77.79.68:9440;
+			sub_filter static01.nyt.com 45.77.79.68:9401;
 			sub_filter https http;
 		}
 	}

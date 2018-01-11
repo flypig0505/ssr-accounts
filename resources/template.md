@@ -4,7 +4,7 @@
 <br/>&nbsp;--&nbsp; Google有异常流量检测机制，当无法访问时请稍后再重试
 
 #####  无需翻墙直接访问（反向代理）:
-######  [Google](http://localhost:8888/search?q=425事件) - [真相纪录片](http://localhost/videos) - [真相期刊](http://localhost/books) - [大纪元新闻网(海外最大中文媒体)](http://localhost/gb/nsc413.htm) - [新唐人电视台](http://localhost:8000/xtr/gb/prog204.html) - [神韵艺术团](http://localhost:8000/xtr/gb/prog673.html)<br/> <br/> [BBC中文网](http://localhost:9100/zhongwen) - [DW(德国之声)](http://localhost:9200) - [华尔街日报](http://localhost:9300/gb/bch.php)  
+######  [Google搜索](http://localhost:8888/search?q=425事件) -[维基百科](http://localhost:8100/wiki/喬高-麥塔斯調查報告) - [真相纪录片](http://localhost/videos) - [真相期刊](http://localhost/books) - [大纪元新闻网(海外最大中文媒体)](http://localhost/gb/nsc413.htm) - [新唐人电视台](http://localhost:8000/xtr/gb/prog204.html) - [神韵艺术团](http://localhost:8000/xtr/gb/prog673.html)<br/> <br/> [BBC中文网](http://localhost:9100/zhongwen) - [DW(德国之声)](http://localhost:9200) - [华尔街日报](http://localhost:9300/gb/bch.php) - [纽约时报中文网](http://localhost:9400) 
 
 ##### 账号信息
 IP地址：`server_ip`  
