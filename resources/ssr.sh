@@ -9,7 +9,7 @@ ss_method=aes-256-cfb
 ss_protocol=auth_sha1_v4_compatible
 ss_protocol_param=200
 ss_obfs=tls1.2_ticket_auth_compatible
-ss_server_port=2345
+ss_server_port=8080
 ss_server_ip=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
 
 qr_folder="/usr/local/nginx/html/info"
