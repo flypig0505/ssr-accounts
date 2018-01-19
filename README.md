@@ -1,6 +1,6 @@
 # SS/SSR 账号 
 
-友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-10 11:07】
+友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-19 21:47】
 <br/>&nbsp;--&nbsp; Google有异常流量检测机制，当无法访问时请稍后再重试。反向代理相关内容迁移到了[open-proxy](https://github.com/gfw-breaker/open-proxy)项目。
 
 #####  无需翻墙直接访问（反向代理）
@@ -16,10 +16,10 @@ IP地址：`45.77.79.68`
 
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
-######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0A0NS43Ny43OS42ODoyMzQ1`   
-######  SS二维码:  <a href="http://45.77.79.68/info/ss.html" target="_blank">http://45.77.79.68/info/ss.html</a>
+######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0A0NS43Ny4xOTAuMzk6ODA4MA`   
+######  SS二维码:  <a href="http://45.77.190.39/info/ss.html" target="_blank">http://45.77.190.39/info/ss.html</a>
 
-######  SSR地址： `ssr://NDUuNzcuNzkuNjg6MjM0NTphdXRoX3NoYTFfdjQ6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOlJtRk1kVzVFWVVaaFNHRnZRRFV4TXcvP3JlbWFya3M9NkxTbTVZLTM1cHUwNXBhd0lHaDBkSEE2THk5MGNuVjBhQzVoZEhOd1lXTmxMbVYxTDNOemNn`     
-######  SSR二维码:  <a href="http://45.77.79.68/info/ssr.html" target="_blank">http://45.77.79.68/info/ssr.html</a>
+######  SSR地址： `ssr://NDUuNzcuMTkwLjM5OjgwODA6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhBNkx5OTBjblYwYUM1aGRITndZV05sTG1WMUwzTnpjZw`     
+######  SSR二维码:  <a href="http://45.77.190.39/info/ssr.html" target="_blank">http://45.77.190.39/info/ssr.html</a>
 
 
