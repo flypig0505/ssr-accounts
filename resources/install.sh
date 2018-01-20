@@ -17,13 +17,13 @@ sed -i "s/type/ssr/" $page_path/ssr.html
 
 ## install ssr & bbr
 unzip shadowsocksr.zip
-mv shadowsocksr /usr/local/shadowsocksr
+cp shadowsocksr /usr/local/shadowsocksr
 chmod +x ssr.sh && bash ssr.sh
-chmod +x bbr.sh && bash bbr.sh
+#chmod +x bbr.sh && bash bbr.sh
 
 
 ## enable ssr service
-mv ssr /etc/init.d/ssr
+cp ssr /etc/init.d/ssr
 chmod +x /etc/init.d/ssr
 chkconfig ssr on
 service ssr start
