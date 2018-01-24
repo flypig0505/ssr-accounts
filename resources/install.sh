@@ -8,7 +8,7 @@ yum install -y vim gcc gcc-c++ wget unzip net-tools openssl-devel python jq qren
 ## set links
 page_path=/usr/local/nginx/html/info
 mkdir -p $page_path
-video_path=/usr/local/nginx/html/content/videos
+video_path=/usr/local/nginx/content/videos
 mkdir -p $video_path
 
 local_ip=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
