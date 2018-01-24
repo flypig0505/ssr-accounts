@@ -1,6 +1,6 @@
 # SS/SSR 账号 
 
-友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-19 21:47】
+友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-01-24 09:36】
 <br/>&nbsp;--&nbsp; Google有异常流量检测机制，当无法访问时请稍后再重试。反向代理相关内容迁移到了[open-proxy](https://github.com/gfw-breaker/open-proxy)项目。
 
 
@@ -9,7 +9,7 @@
 
 
 ##### 账号信息
-IP地址：`45.77.190.39`  
+IP地址：`207.148.21.23`  
 端口号：`8080`  
 密码  : `FaLunDaFaHao@513`  
 加密  ：`aes-256-cfb`  
@@ -19,9 +19,9 @@ IP地址：`45.77.190.39`
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
 ######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0A0NS43Ny4xOTAuMzk6ODA4MA`   
-######  SS二维码:  <a href="http://45.77.190.39/info/ss.html" target="_blank">http://45.77.190.39/info/ss.html</a>
+######  SS二维码:  <a href="http://45.32.91.141/info/ss.html" target="_blank">http://45.32.91.141/info/ss.html</a>
 
 ######  SSR地址： `ssr://NDUuNzcuMTkwLjM5OjgwODA6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhBNkx5OTBjblYwYUM1aGRITndZV05sTG1WMUwzTnpjZw`     
-######  SSR二维码:  <a href="http://45.77.190.39/info/ssr.html" target="_blank">http://45.77.190.39/info/ssr.html</a>
+######  SSR二维码:  <a href="http://45.32.91.141/info/ssr.html" target="_blank">http://45.32.91.141/info/ssr.html</a>
 
 
