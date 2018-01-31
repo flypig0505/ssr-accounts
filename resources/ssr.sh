@@ -87,8 +87,8 @@ EOF
 }
 
 
-#write_configuration
-#add_iptables
+write_configuration
+add_iptables
 ss_link_qr
 ssr_link_qr
 
