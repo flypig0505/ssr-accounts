@@ -39,7 +39,7 @@ urlsafe_base64(){
 ss_link_qr(){
 	SSbase64=$(urlsafe_base64 "${ss_method}:${ss_password}@${ss_server_ip}:${ss_server_port}")
 	SSurl="ss://${SSbase64}"
-	qrencode -o $qr_folder/ss.png -s 8 "${SSurl}"
+	qrencode -o $qr_folder/ss.png -s 2 "${SSurl}"
 	echo "${SSurl}" >> url.txt
 }
 
@@ -51,7 +51,7 @@ ssr_link_qr(){
 	remarkBase64=$(urlsafe_base64 "账号更新 http://truth.atspace.eu/ssr")
 	SSRbase64=$(urlsafe_base64 "${ss_server_ip}:${ss_server_port}:${SSRprotocol}:${ss_method}:${SSRobfs}:${SSRPWDbase64}/?remarks=${remarkBase64}")
 	SSRurl="ssr://${SSRbase64}"
-	qrencode -o $qr_folder/ssr.png -s 8 "${SSRurl}"
+	qrencode -o $qr_folder/ssr.png -s 2 "${SSRurl}"
 	echo "${SSRurl}" >> url.txt
 }
 
@@ -72,7 +72,7 @@ write_configuration(){
     "protocol_param": "${ss_protocol_param}",
     "obfs": "${ss_obfs}",
     "obfs_param": "",
-    "speed_limit_per_con": 0,
+    "speed_limit_per_con": 200,
     "speed_limit_per_user": 0,
 
     "additional_ports" : {},
@@ -87,8 +87,8 @@ EOF
 }
 
 
-write_configuration
-add_iptables
+#write_configuration
+#add_iptables
 ss_link_qr
 ssr_link_qr
 

@@ -1,18 +1,49 @@
 <html>
 <head>
 <title>SS/SSR 二维码</title>
-<meta http-equiv="refresh" content="3;URL=http://localhost:8000/xtr/gb/2018/01/24/a1360638.html">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<style>
+.scroll-wrapper {    
+	right: 0;    
+	bottom: 0;    
+	left: 0;   
+	top: 0;  
+	overflow-y: scroll;   
+}   
+iframe {
+	width: 100%;
+	height: 98%;
+}
+#qr {
+	width: 100%;
+	height: 140px;
+}
+#page {
+	width: 100%;
+}
+@media screen and (min-width: 1000px) { 
+	.scroll-wrapper {  
+		display: float;
+		float: left;
+	}
+	#qr {
+		width: 10%;
+	}
+	#page {
+		width: 90%;
+	}
+} 
+</style>
 </head>
+
 <body>
-<center>
-<br/>
-<br/>
-<br/>
-<br/>
-<img src="./ss.png"/>
-<br/>
-3秒后将跳转到<a href="http://localhost:8000/xtr/gb/2018/01/24/a1360638.html">网站主页</a>
-</center>
+<div class="scroll-wrapper" id="qr">   
+    <iframe src="sstype.png" scroll="no" frameborder="0"></iframe>   
+</div>   
+<div class="scroll-wrapper" id="page">   
+    <iframe src="http://localhost:8000/xtr/gb/2018/01/24/a1360638.html" frameborder="0" scrolling="yes"></iframe>   
+</div>   
 </body>
 </html>
+
