@@ -12,14 +12,14 @@ video_path=/usr/local/nginx/content/videos
 mkdir -p $video_path
 
 local_ip=$(ifconfig | grep "inet addr" | sed -n 1p | cut -d':' -f2 | cut -d' ' -f1)
-sed "s/localhost/$local_ip/g" link.html > $page_path/ss.html
-sed -i "s/sstype/ss/" $page_path/ss.html
 
-sed "s/localhost/$local_ip/g" link.html > $page_path/ssr.html
-sed -i "s/sstype/ssr/" $page_path/ssr.html
+homepage=$(sed -n 1p homepage.txt | sed 's/ //g')
+sed -i "s#homepage#$homepage#" link.html
 
-sed "s/localhost/$local_ip/g" videos.html > $video_path/index.html
+sed "s/sstype/ss/" link.html > $page_path/ss.html
+sed "s/sstype/ssr/" link.html > $page_path/ssr.html
 
+#sed "s/localhost/$local_ip/g" videos.html > $video_path/index.html
 
 ## install ssr & bbr
 unzip shadowsocksr.zip
