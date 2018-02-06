@@ -40,7 +40,7 @@ ss_link_qr(){
 	SSbase64=$(urlsafe_base64 "${ss_method}:${ss_password}@${ss_server_ip}:${ss_server_port}")
 	SSurl="ss://${SSbase64}"
 	qrencode -o $qr_folder/ss.png -s 2 "${SSurl}"
-	echo "${SSurl}" >> url.txt
+	echo "${SSurl}" > url.txt
 }
 
 ssr_link_qr(){
