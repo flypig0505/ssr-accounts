@@ -2,7 +2,7 @@
 <head>
 <title>SS/SSR 二维码</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, user-scalable=yes" />
 <style>
 .scroll-wrapper {    
 	right: 0;    
@@ -16,14 +16,22 @@ iframe {
 	height: 98%;
 }
 #ss {
+	width: 140px;
 	height: 140px;
+	float: left;
 }
 #qr {
 	width: 100%;
-	height: 190px;
+	height: 140px;
 }
 #page {
 	width: 100%;
+	-webkit-overflow-scrolling: touch;
+}
+#link {
+	float: left;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 @media screen and (min-width: 1000px) { 
 	.scroll-wrapper {  
@@ -32,6 +40,7 @@ iframe {
 	}
 	#qr {
 		width: 15%;
+		height: 240px;
 	}
 	#page {
 		width: 85%;
@@ -44,12 +53,14 @@ iframe {
 
 <div class="scroll-wrapper" id="qr">   
 	<iframe src="sstype.png" scroll="no" frameborder="0" id="ss"></iframe>   
-	<a href="../videos/fg764p.zip">自由门桌面版7.64</a>
-	<br/>
-	<a href="../videos/fgma32.apk">自由门安卓版3.2</a>
+	<div id="link">
+		<a href="http://truth.atspace.eu/" target="_blank">我的博客</a><br/>
+		<a href="../videos/fg764p.zip">自由门桌面版7.64</a><br/>
+		<a href="../videos/fgma32.apk">自由门安卓版3.2</a>
+	</div>
 </div>   
 <div class="scroll-wrapper" id="page">   
-    <iframe src="../videos/index.html" frameborder="0" scrolling="yes"></iframe>   
+    <iframe src="homepage" frameborder="0" scrolling="yes"></iframe>   
 </div>   
 
 </body>
