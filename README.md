@@ -17,9 +17,9 @@ IP地址：`198.13.56.255`
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
 ######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxOTguMTMuNTYuMjU1OjgwODA`   
-######  SS二维码: &nbsp;&nbsp; <a href="http://207.148.88.122/info/ss.html" target="_blank">节点2: 207.148.88.122</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.150/info/ss.html" target="_blank">节点3: 207.148.88.150</a> 
+######  SS二维码: &nbsp;&nbsp; <a href="http://207.148.88.122/info/ss.html" target="_blank">节点2: 207.148.88.122</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.150/info/ss.html" target="_blank">节点3: 207.148.88.150</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.178/info/ss.html" target="_blank">节点4: 207.148.88.178</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.202/info/ss.html" target="_blank">节点5: 207.148.88.202</a>
 
 ######  SSR地址： `ssr://MTk4LjEzLjU2LjI1NTo4MDgwOmF1dGhfc2hhMV92NDphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6Um1GTWRXNUVZVVpoU0dGdlFEVXhNdy8_cmVtYXJrcz02TFNtNVktMzVwdTA1cGF3SUdoMGRIQTZMeTkwY25WMGFDNWhkSE53WVdObExtVjFMdw`     
-######  SSR二维码: &nbsp;&nbsp;<a href="http://207.148.88.122/info/ssr.html" target="_blank">节点2: 207.148.88.122</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.150/info/ssr.html" target="_blank">节点3: 207.148.88.150</a> 
+######  SSR二维码: &nbsp;&nbsp;<a href="http://207.148.88.122/info/ssr.html" target="_blank">节点2: 207.148.88.122</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.150/info/ssr.html" target="_blank">节点3: 207.148.88.150</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.178/info/ssr.html" target="_blank">节点4: 207.148.88.178</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://207.148.88.202/info/ssr.html" target="_blank">节点5: 207.148.88.202</a>
 
 
