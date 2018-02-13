@@ -24,6 +24,7 @@ sed "s/sstype/ssr/" link.html > $page_path/ssr.html
 ## install ssr & bbr
 unzip shadowsocksr.zip
 cp -R shadowsocksr /usr/local/shadowsocksr
+cp asyncdns.py /usr/local/shadowsocksr/shadowsocks
 chmod +x ssr.sh && bash ssr.sh
 chmod +x bbr.sh && bash bbr.sh
 

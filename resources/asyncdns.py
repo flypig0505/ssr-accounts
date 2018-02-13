@@ -18,7 +18,6 @@
 from __future__ import absolute_import, division, print_function, \
 	with_statement
 
-
 import os
 import socket
 import struct
@@ -491,7 +490,7 @@ class DNSResolver(object):
 			callback((hostname, hostname), None)
 		elif self.get_domain(hostname) in self._domains:
 			logging.info('hit domains: %s', hostname)
-			ip = self._domains[hostname]
+			ip = self._domains[self.get_domain(hostname)]
 			callback((hostname, ip), None)
 		elif hostname in self._hosts:
 			logging.debug('hit hosts: %s', hostname)
