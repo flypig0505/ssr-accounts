@@ -8,7 +8,7 @@
 
 
 ##### 账号信息
-IP地址：`207.154.215.146`  
+IP地址：`198.13.34.55`  
 端口号：`8080`  
 密码  : `FaLunDaFaHao@513`  
 加密  ：`aes-256-cfb`  
@@ -17,10 +17,10 @@ IP地址：`207.154.215.146`
 
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
-######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AyMDcuMTU0LjIxNS4xNDY6ODA4MA`   
-######  SS二维码: &nbsp;&nbsp; <a href="http://207.154.215.146/info/ss.html" target="_blank">节点1: 207.154.215.146</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ss.html" target="_blank">节点2: 159.89.204.253</a>
+######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxOTguMTMuMzQuNTU6ODA4MA`   
+######  SS二维码: &nbsp;&nbsp; <a href="http://198.13.34.55/info/ss.html" target="_blank">节点1: 198.13.34.55</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ss.html" target="_blank">节点2: 159.89.204.253</a>
 
-######  SSR地址： `ssr://MjA3LjE1NC4yMTUuMTQ2OjgwODA6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhBNkx5OTBjblYwYUM1aGRITndZV05sTG1WMUx3`     
-######  SSR二维码: &nbsp;&nbsp;<a href="http://207.154.215.146/info/ssr.html" target="_blank">节点1: 207.154.215.146</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ssr.html" target="_blank">节点2: 159.89.204.253</a>
+######  SSR地址： `ssr://MTk4LjEzLjM0LjU1OjgwODA6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhCek9pOHZaMlozTFdKeVpXRnJaWEl1WjJsMGFIVmlMbWx2`     
+######  SSR二维码: &nbsp;&nbsp;<a href="http://198.13.34.55/info/ssr.html" target="_blank">节点1: 198.13.34.55</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ssr.html" target="_blank">节点2: 159.89.204.253</a>
 
 
