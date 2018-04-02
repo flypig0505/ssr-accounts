@@ -1,6 +1,6 @@
 # SS/SSR 账号 
 
-友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-02-13 10:24】
+友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-04-02 15:24】
 <br/>&nbsp;--&nbsp; 若您访问的某些网站被重定向，请参考[Wiki](https://github.com/gfw-breaker/ssr-accounts/wiki) ；Google有异常流量检测机制，当无法访问时请稍后再重试
 <br/>&nbsp;--&nbsp; 鉴于GFW封锁不断升级，若Shadowsocks失效，可以使用 [一键翻墙软件](https://gfw-breaker.github.io/fq.html)，有备无患
 
@@ -9,7 +9,7 @@
 
 
 ##### 账号信息
-IP地址：`128.199.174.136`  
+IP地址：`159.65.102.184`  
 端口号：`8080`  
 密码  : `FaLunDaFaHao@513`  
 加密  ：`aes-256-cfb`  
@@ -18,10 +18,10 @@ IP地址：`128.199.174.136`
 
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
-######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxMjguMTk5LjE3NC4xMzY6ODA4MA`   
-######  SS二维码: &nbsp;&nbsp; <a href="http://128.199.174.136/info/ss.html" target="_blank">节点1: 128.199.174.136</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ss.html" target="_blank">节点2: 159.89.204.253</a>
+######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxNTkuNjUuMTAyLjE4NDo4MDgw`   
+######  SS二维码: &nbsp;&nbsp; <a href="http://159.65.102.184/info/ss.html" target="_blank">节点1: 159.65.102.184</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ss.html" target="_blank">节点2: 159.89.204.253</a>
 
-######  SSR地址： `ssr://MTI4LjE5OS4xNzQuMTM2OjgwODA6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhCek9pOHZaMlozTFdKeVpXRnJaWEl1WjJsMGFIVmlMbWx2`     
-######  SSR二维码: &nbsp;&nbsp;<a href="http://128.199.174.136/info/ssr.html" target="_blank">节点1: 128.199.174.136</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ssr.html" target="_blank">节点2: 159.89.204.253</a>
+######  SSR地址： `ssr://MTU5LjY1LjEwMi4xODQ6ODA4MDphdXRoX3NoYTFfdjQ6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOlJtRk1kVzVFWVVaaFNHRnZRRFV4TXcvP3JlbWFya3M9NkxTbTVZLTM1cHUwNXBhd0lHaDBkSEJ6T2k4dloyWjNMV0p5WldGclpYSXVaMmwwYUhWaUxtbHY`     
+######  SSR二维码: &nbsp;&nbsp;<a href="http://159.65.102.184/info/ssr.html" target="_blank">节点1: 159.65.102.184</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ssr.html" target="_blank">节点2: 159.89.204.253</a>
 
 
