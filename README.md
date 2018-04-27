@@ -2,7 +2,7 @@
 
 友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-04-02 15:24】
 <br/>&nbsp;--&nbsp; 若您访问的某些网站被重定向，请参考[Wiki](https://github.com/gfw-breaker/ssr-accounts/wiki) ；Google有异常流量检测机制，当无法访问时请稍后再重试
-<br/>&nbsp;--&nbsp; 鉴于GFW封锁不断升级，若Shadowsocks失效，可以使用 [一键翻墙软件](https://hidden-mesa-45076.herokuapp.com/proxy/http://wujieliulan.com/)
+<br/>&nbsp;--&nbsp; 鉴于GFW封锁不断升级，若Shadowsocks失效，可以使用 [一键翻墙软件](https://github.com/gfw-breaker/nogfw/blob/master/README.md)
 
 ##### 通用Web代理方案，可代理所有网站 [heroku-node-proxy](https://github.com/gfw-breaker/heroku-node-proxy#--end--) 
 
