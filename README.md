@@ -19,9 +19,8 @@ IP地址：`159.65.102.184`
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
 ######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxNTkuNjUuMTAyLjE4NDo4MDgw`   
-######  SS二维码: &nbsp;&nbsp; <a href="http://159.65.102.184/info/ss.html" target="_blank">节点1: 159.65.102.184</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ss.html" target="_blank">节点2: 159.89.204.253</a>
-
+######  SS二维码: &nbsp;&nbsp; <a href="http://159.65.102.184/info/ss.html" target="_blank">节点1: 159.65.102.184</a> 
 ######  SSR地址： `ssr://MTU5LjY1LjEwMi4xODQ6ODA4MDphdXRoX3NoYTFfdjQ6YWVzLTI1Ni1jZmI6dGxzMS4yX3RpY2tldF9hdXRoOlJtRk1kVzVFWVVaaFNHRnZRRFV4TXcvP3JlbWFya3M9NkxTbTVZLTM1cHUwNXBhd0lHaDBkSEJ6T2k4dloyWjNMV0p5WldGclpYSXVaMmwwYUhWaUxtbHY`     
-######  SSR二维码: &nbsp;&nbsp;<a href="http://159.65.102.184/info/ssr.html" target="_blank">节点1: 159.65.102.184</a> &nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://159.89.204.253/info/ssr.html" target="_blank">节点2: 159.89.204.253</a>
+######  SSR二维码: &nbsp;&nbsp;<a href="http://159.65.102.184/info/ssr.html" target="_blank">节点1: 159.65.102.184</a> 
 
 
