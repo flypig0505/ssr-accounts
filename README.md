@@ -1,13 +1,11 @@
 # SS/SSR 账号 
 
-友情提示：SS服务器可能遭到GFW封锁, 届时将重建服务器并更新账号信息, 最后更新于【2018-04-02 15:24】
-<br/>&nbsp;--&nbsp; 若您访问的某些网站被重定向，请参考[Wiki](https://github.com/gfw-breaker/ssr-accounts/wiki) ；Google有异常流量检测机制，当无法访问时请稍后再重试
-<br/>&nbsp;--&nbsp; 鉴于GFW封锁不断升级，若Shadowsocks失效，可以使用 [一键翻墙软件](https://github.com/gfw-breaker/nogfw/blob/master/README.md) &nbsp; 
+##### 本项目已被五毛盯上，新发布的地址一般两小时内就会被封。大家去下载使用[一键翻墙软件](https://github.com/gfw-breaker/nogfw/blob/master/README.md)吧
 
-##### 搭建免费Web代理 [heroku-node-proxy](https://github.com/gfw-breaker/heroku-node-proxy#--end--) ；搭建免费YouTube代理 [you2php-heroku](https://github.com/gfw-breaker/you2php-heroku#--end--) 
+##### 授人以鱼不如授人以渔：搭建 [免费Web代理](https://github.com/gfw-breaker/heroku-node-proxy#--end--)；搭建 [免费YouTube代理](https://github.com/gfw-breaker/you2php-heroku#--end--) 
 
-
-######  [Google](https://sheltered-depths-73121.herokuapp.com/proxy/https://www.google.com/search?q=425事件) - [YouTube](https://git.io/vxNPj) - [维基百科](https://sheltered-depths-73121.herokuapp.com/proxy/https://zh.wikipedia.org/wiki/喬高-麥塔斯調查報告)  - [真相期刊](https://sheltered-depths-73121.herokuapp.com/proxy/http://qikan.minghui.org/display.aspx?category_id=3&zhuanti_id=2) - [大纪元新闻网](https://sheltered-depths-73121.herokuapp.com/proxy/http://www.epochtimes.com/) - [新唐人电视台](https://sheltered-depths-73121.herokuapp.com/proxy/http://www.ntdtv.com/) - [希望之声](https://sheltered-depths-73121.herokuapp.com/proxy/http://soundofhope.org/) - [神韵艺术团](https://sheltered-depths-73121.herokuapp.com/proxy/http://www.ntdtv.com/xtr/gb/prog673.html) - [我的博客](https://sheltered-depths-73121.herokuapp.com/proxy/http://truth.atspace.eu/)<br/> <br/> [BBC中文网](https://sheltered-depths-73121.herokuapp.com/proxy/http://www.bbc.com/zhongwen/simp) - [DW(德国之声)](https://sheltered-depths-73121.herokuapp.com/proxy/http://www.dw.com/zh/在线报导/s-9058?&zhongwen=simp) - [华尔街日报](https://sheltered-depths-73121.herokuapp.com/proxy/https://cn.wsj.com/zh-hans) - [纽约时报中文网](https://sheltered-depths-73121.herokuapp.com/proxy/https://cn.nytimes.com/) - [路透中文网](https://sheltered-depths-73121.herokuapp.com/proxy/https://cn.reuters.com/) - [法国国际广播电台](https://sheltered-depths-73121.herokuapp.com/proxy/http://cn.rfi.fr/) - [美国之音](https://sheltered-depths-73121.herokuapp.com/proxy/https://www.voachinese.com/) - [NTDTV中国频道](https://git.io/vxShq)
+##### 反向代理
+######  [Google](http://173.199.90.210:8888/search?q=425事件) - [YouTube](http://173.199.90.210:8700/results?search_query=425事件) - [维基百科](http://173.199.90.210:8100/wiki/喬高-麥塔斯調查報告) - [真相期刊](http://173.199.90.210:8300/display.aspx?category_id=3&zhuanti_id=2) - [大纪元新闻网](http://173.199.90.210:10080) - [新唐人电视台](http://173.199.90.210:8000) - [希望之声](http://173.199.90.210:8200) - [神韵艺术团](http://173.199.90.210:8000/xtr/gb/prog673.html) - [我的博客](http://173.199.90.210:10000/)<br/> <br/> [BBC中文网](http://173.199.90.210:9100/zhongwen) - [DW(德国之声)](http://173.199.90.210:9200/zh/在线报导/s-9058?&zhongwen=simp) - [华尔街日报](http://173.199.90.210:9300) - [纽约时报中文网](http://173.199.90.210:9400) - [路透中文网](http://173.199.90.210:9500/) - [法国国际广播电台](http://173.199.90.210:9600/) - [美国之音](http://173.199.90.210:9700/) - [NTDTV中国频道](http://173.199.90.210:10080/info/tv.html)
 
 
 ##### 账号信息
