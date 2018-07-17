@@ -18,5 +18,7 @@ IP地址：`167.99.97.149`
 
 ##### 您也可以粘贴SS/SSR地址或通过扫描二维码自动将账号添加到客户端
 
-######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0AxNjcuOTkuOTcuMTQ5OjgwODA`  
-######  SSR地址： `ssr://MTY3Ljk5Ljk3LjE0OTo4MDgwOmF1dGhfc2hhMV92NDphZXMtMjU2LWNmYjp0bHMxLjJfdGlja2V0X2F1dGg6Um1GTWRXNUVZVVpoU0dGdlFEVXhNdy8_cmVtYXJrcz02TFNtNVktMzVwdTA1cGF3SUdoMGRIQnpPaTh2WjJaM0xXSnlaV0ZyWlhJdWQybHU`
+######  SS地址： `ss://YWVzLTI1Ni1jZmI6RmFMdW5EYUZhSGFvQDUxM0A0NS43Ni4xOTguMTEyOjQ0Mw`  
+######  SSR地址： `ssr://NDUuNzYuMTk4LjExMjo0NDM6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnRsczEuMl90aWNrZXRfYXV0aDpSbUZNZFc1RVlVWmhTR0Z2UURVeE13Lz9yZW1hcmtzPTZMU201WS0zNXB1MDVwYXdJR2gwZEhCek9pOHZaMlozTFdKeVpXRnJaWEl1ZDJsdUx3`
+
+###### 无需Linux知识、无需远程登录服务器, 在VPS上一键搭建SS/SSR, 请参考 [在Vultr上自动部署Shadowsocks](https://gfw-breaker.win/vultr%e9%83%a8%e7%bd%b2ss/) 
